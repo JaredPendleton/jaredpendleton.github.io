@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1545231097-cbd796f1d95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    display: block;
+    color: white;
+    height: 80px;
+    font-size: 64px;
+}
+h2 {
+    height: 60px;
+    font-size: 48px;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    color: lightgrey;
+}
+ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+#header-b {
+    background-color: blue;
+}
+#header-r {
+    background-color: red;
+}
+#header-y {
+    background-color: yellow;
+}
+#header-g {
+    background-color: green;
+}
+#header-o {
+    background-color: orange;
+}
+.blue {
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 25px 25px;
+    text-align: left;
+}
+#bluehsl {
+    background-color:hsl(240, 91%, 94%)
+}
+#bluehex {
+    background-color: #A7A7DC
+}
+#bluergb {
+    background-color: rgb(116, 116, 199);
+}
+#bluename {
+    background-color: blueviolet
+}
+.red {
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 25px 25px;
+    text-align: left;
+}
+#redhsl {
+    background-color:hsl(0, 18%, 90%)
+}
+#redhex {
+    background-color: #D48383
+}
+#redrgb {
+    background-color: rgb(183, 54, 54);
+}
+#redname {
+    background-color: maroon
+}
+.green {
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 25px 25px;
+    text-align: left;
+}
+#greenhsl {
+    background-color:hsl(120, 28%, 91%)
+}
+#greenhex {
+    background-color: #8CE98C
+}
+#greenrgb {
+    background-color: rgb(68, 196, 68);
+}
+#greenname {
+    background-color: limegreen
+}

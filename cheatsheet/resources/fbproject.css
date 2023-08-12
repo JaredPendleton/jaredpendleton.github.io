@@ -1,0 +1,134 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+p {
+    font-size: 22px;
+}
+
+header {
+    height: 69px;
+    min-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    flex-grow: 1;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.h-nav {
+    display: flex;
+    justify-content: space-around;
+    height: 69px;
+    width: 400px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+h4 {
+    text-align: center;
+}
+
+.container-one {
+    display: flex;
+    height: 700px;
+    margin: 0 auto;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    align-items: center;
+    justify-content: center;
+}
+
+.spanner {
+    max-height: 100px;
+    min-width: 1200px;
+    z-index: 1;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 1 2 1200px;
+    margin: 0 auto;
+}
+.spanner-two {
+    display: flex;
+    min-width: 1000px;
+    flex-direction: column;
+    flex: 1 2 1000px; 
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.imdim {
+    padding-bottom: 10px;
+}
+
+.container-two {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-three {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    margin: 0 10px 22px 10px;
+    text-align: center;
+}
+
+.container-four {
+    height: 500px;
+    margin: 0 auto;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+}
+
+.cube {
+    opacity: 1;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 20px;
+    background-color: black;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#l-header {
+    background-color: transparent;
+    height: 150px;
+    text-align: center;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.container-five {
+    text-align: center;
+    margin: 0 auto;
+}
