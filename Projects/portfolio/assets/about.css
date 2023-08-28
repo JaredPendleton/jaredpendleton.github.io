@@ -1,0 +1,210 @@
+html {
+    background-color: #ABD1FF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Begin header*/
+/*Header descriptions in plans*/
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border-bottom: #E54B22 3px double;
+    width: 100%;
+} 
+.tbd {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.tbd li {
+    list-style-type: none;
+    color: #E54B22;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.tbd a {
+    text-decoration: none;
+    color: #E54B22;
+}
+.tbd a:hover {
+    text-decoration: underline;
+    color: black;
+    transition-property: color, text-decoration;
+    transition-timing-function: .25;
+}
+.minombre {
+    display: none;
+}
+.minombre a {
+    text-decoration: none;
+    color: #E54B22;
+}
+
+.minombre a:hover {
+    text-decoration: underline;
+    color: black;
+    transition-property: color, text-decoration;
+    transition-timing-function: .25;
+}
+/*sub header*/
+.sub-banner {
+    color: black;
+    text-align: center;
+    background-color: #E54B22;
+    margin-top: 0rem; 
+    padding-top: .1rem;
+    margin-bottom: 0rem;
+    padding-bottom: .1rem;
+}
+.sub-banner h3 {
+    margin-top: 0rem; 
+    padding-top: .1rem;
+    margin-bottom: 0rem;
+    padding-bottom: .1rem;
+    font-size: 1.2rem;
+}
+/*body start here*/
+
+h4 {
+    color: #E54B22;
+    text-align: center;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    border-top: solid #E54B22 .0625rem;
+    border-bottom: solid #E54B22 .0625rem;
+    font-size: 1.15rem;
+}
+
+.content-text {
+    color: black;
+    font-size: 1rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    opacity: .8;
+}
+
+/*CSS for link*/
+#gbhs {
+    color: #E54B22;
+    text-decoration: none;
+}
+#gbhs:hover {
+    color: black;
+    text-decoration: underline;
+    transition-property: color, font-decoration;
+    transition-delay: 0.2s;
+    transition-timing-function: 0.2s;
+}
+/*Page breaks for max-width 480px*/
+@media only screen and (max-width: 480px) {
+    .tbd {
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .banner {
+        justify-content: space-around;
+    }
+}
+
+/*Page breaks for max-width 786px*/
+@media only screen and (min-width: 481px) and (max-width: 786px) {
+    .tbd {
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .banner {
+        justify-content: space-around;
+    }
+}
+
+/*Page break for max-width 1024px*/
+@media only screen and (min-width: 787px) and (max-width: 1024px) {
+    .tbd {
+        width: 50%;
+        justify-content: space-between;
+    }
+    .tbd li {
+        font-size: 1.5 rem;
+    }
+    .minombre {
+        display: flex;
+        font-size: 1.5rem;
+        color: #E54B22;
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .banner {
+        justify-content: space-between;
+        align-content: baseline;
+    }
+    .container-grande {
+        display: flex;
+        flex-direction: row;
+    }
+    .edu {
+        width: 50%;
+        border-right: solid .0625rem #E54B22;
+    }
+    .personal {
+        width: 50%;
+    }
+    .content-text {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+/*Page break fro min-width 1600px*/
+@media only screen and (min-width: 1025px) and (max-width: 1960px) {
+    .tbd {
+        width: 50%;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .tbd li {
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+    .minombre {
+        display: flex;
+        font-size: 2.5rem;
+        color: #E54B22;
+        justify-content: center;
+        width: 50%;
+    }
+    .banner {
+        justify-content: space-between;
+    }
+    .container-grande {
+        display: flex;
+        flex-direction: row;
+    }
+    .edu {
+        width: 50%;
+        border-right: solid .0625rem #E54B22;
+    }
+    .personal {
+        width: 50%;
+    }
+    .content-text {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 1.2rem;
+    }
+    #maybe {
+        font-size: 2rem;
+    }
+    #youshould, #hireme {
+        font-size: 1.75rem;
+    }
+}
