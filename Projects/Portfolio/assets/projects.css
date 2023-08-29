@@ -1,0 +1,117 @@
+html {
+    background-color: #0F149A;
+}
+/*Begin header*/
+/*Header descriptions in plans*/
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border-bottom: #FD9b4d 3px double;
+    width: 100%;
+} 
+.tbd {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.tbd li {
+    list-style-type: none;
+    color: #FD9b4d;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.tbd a {
+    text-decoration: none;
+    color: #FD9b4d;
+}
+.tbd a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+    transition-property: color, text-decoration;
+    transition-timing-function: .25;
+}
+.minombre {
+    display: none;
+}
+
+/*body start here*/
+
+
+
+/*Page breaks for max-width 480px*/
+@media only screen and (max-width: 480px) {
+    .tbd {
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .banner {
+        justify-content: space-around;
+    }
+}
+
+/*Page breaks for max-width 786px*/
+@media only screen and (min-width: 481px) and (max-width: 786px) {
+    .tbd {
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .banner {
+        justify-content: space-around;
+    }
+}
+
+/*Page break for max-width 1024px*/
+@media only screen and (min-width: 787px) and (max-width: 1024px) {
+    .tbd {
+        width: 40%;
+        justify-content: space-between;
+    }
+    .tbd li {
+        font-size: 1.5 rem;
+    }
+    .minombre {
+        display: flex;
+        font-size: 1.5rem;
+        color: #FD9b4d;
+        text-align: center;
+        justify-content: center;
+        width: 60%;
+    }
+    .banner {
+        justify-content: space-between;
+        align-content: baseline;
+    }
+}
+
+/*Page break fro min-width 1600px*/
+@media only screen and (min-width: 1025px) and (max-width: 1960px) {
+    .tbd {
+        width: 50%;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .tbd li {
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+    .minombre {
+        display: flex;
+        font-size: 2.5rem;
+        color: #FD9b4d;
+        justify-content: center;
+        width: 40%;
+    }
+    .banner {
+        justify-content: space-between;
+    }
+}

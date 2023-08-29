@@ -1,0 +1,232 @@
+html {
+    background-color: #337DEF;
+}
+/*Begin header*/
+/*Header descriptions in plans*/
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border-bottom: #FCC729 3px double;
+    width: 100%;
+    margin-bottom: 2rem;
+} 
+.tbd {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.tbd li {
+    list-style-type: none;
+    color: #FCC729;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.tbd a {
+    text-decoration: none;
+    color: #FCC729;
+}
+.tbd a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+    transition-property: color, text-decoration;
+    transition-timing-function: .25;
+}
+.minombre {
+    display: none;
+}
+
+/*body start here*/
+.greeting h2 {
+    /*font-size: 2rem;  size on breaks probably*/
+    width: auto;
+    height: auto;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+.greeting p {
+    text-align: center;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    color: #337DEF;
+}
+
+figure {
+    width: 38%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+figure img {
+    max-width: 100%;
+    height: 15rem;
+    display: block;
+    margin: 0 auto;
+}
+.big-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #FCC729; 
+}
+.small-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.lead-in {
+    color: whitesmoke;
+}
+#style-name {
+    color: #FCC729; 
+}
+/*Page breaks for max-width 480px*/
+@media only screen and (max-width: 480px) {
+    .tbd {
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .banner {
+        justify-content: space-around;
+    }
+    .greeting {
+        width: 100%;
+    }
+    .greeting h2 {
+        font-size: 1.6rem;
+    }
+    .big-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    figure {
+        width: 100%;
+    }
+}
+
+/*Page breaks for max-width 786px*/
+@media only screen and (min-width: 481px) and (max-width: 786px) {
+    .tbd {
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .banner {
+        justify-content: space-around;
+    }
+    .greeting {
+        width: 100%;
+    }
+    .greeting h2 {
+        font-size: 1.8rem;
+    }
+    .big-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    figure {
+        width: 100%;
+    }
+}
+
+/*Page break for max-width 1024px*/
+@media only screen and (min-width: 787px) and (max-width: 1024px) {
+    .tbd {
+        width: 40%;
+        justify-content: space-between;
+    }
+    .tbd li {
+        font-size: 1.5 rem;
+    }
+    .minombre {
+        display: flex;
+        font-size: 1.5rem;
+        color: #FCC729;
+        text-align: center;
+        justify-content: center;
+        width: 60%;
+    }
+    .banner {
+        justify-content: space-between;
+        align-content: baseline;
+    }
+    figure {
+        margin: 0 auto;
+    }
+    /*figure:hover {
+        width: 90%;
+        transition-property: width;
+        transition-duration: 5s;
+        z-index: 2;
+    }
+    figure img:hover {
+        height: auto;
+        z-index: 3;
+        transition-property: height;
+        transition-duration: 5s;
+        transition-delay: .2s;
+    }*/
+}
+
+/*Page break fro min-width 1600px*/
+@media only screen and (min-width: 1025px) and (max-width: 1960px) {
+    .tbd {
+        width: 50%;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .tbd li {
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+    .minombre {
+        display: flex;
+        font-size: 2.5rem;
+        color: #FCC729;
+        justify-content: center;
+        width: 50%;
+    }
+    .banner {
+        justify-content: space-between;
+    }
+    figure {
+        width: 48%;
+    }
+    .greeting {
+        width: 50%;
+    }
+    .greeting p {
+        font-size: 1.5rem;
+    }
+    .greeting h2 {
+        font-size: 2rem;
+    }
+    /*figure:hover {
+        width: 90%;
+        transition-property: width;
+        transition-duration: 5s;
+        z-index: 2;
+    }
+    figure img:hover {
+        height: auto;
+        z-index: 3;
+        transition-property: height;
+        transition-duration: 5s;
+        transition-delay: .2s;
+    }*/
+}

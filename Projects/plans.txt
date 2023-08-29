@@ -1,0 +1,21 @@
+index.html = home page
+design goal = broad, smooth, professional, clean
+Top: Banner "About me" (link out page change), Projects (dropdown professional personal), "professional history". contact me. 
+***from right justified to center on page break
+IDEA I want a click if color blind button that'll change the entire color scheme can use JS for that.
+Color scheme: Royal Blue (#4955fd) and green lizard #a5e300
+sdf
+
+
+Important example memorize! 
+.container {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+}
+ 
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
