@@ -1,5 +1,5 @@
 html {
-    background-color: #0F149A;
+    background-color: #FCF6F5;
 }
 /*Begin header*/
 /*Header descriptions in plans*/
@@ -7,7 +7,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    border-bottom: #FD9b4d 3px double;
+    border-bottom: #990011 3px double;
     width: 100%;
 } 
 .tbd {
@@ -21,17 +21,17 @@ html {
 
 .tbd li {
     list-style-type: none;
-    color: #FD9b4d;
+    color: #990011;
     font-size: 1.3rem;
     font-weight: 500;
 }
 .tbd a {
     text-decoration: none;
-    color: #FD9b4d;
+    color: #990011;
 }
 .tbd a:hover {
     text-decoration: underline;
-    color: whitesmoke;
+    color: darkgray;
     transition-property: color, text-decoration;
     transition-timing-function: .25;
 }
@@ -41,7 +41,7 @@ html {
 
 /*body start here*/
 .greeting h2 {
-    color: whitesmoke;
+    color: darkgray;
     /*font-size: 2rem;  size on breaks probably*/
     width: auto;
     height: auto;
@@ -49,7 +49,7 @@ html {
     flex-shrink: 1;
 }
 .greeting p {
-    color: whitesmoke;
+    color: darkgray;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ figure {
     overflow: hidden;
     margin-left: 1%;
     margin-right: 1%;
-    background-color: #FD9b4d; 
+    background-color: #990011; 
 }
 figure img {
     max-width: 100%;
@@ -133,7 +133,7 @@ figure img {
     .minombre {
         display: flex;
         font-size: 1.5rem;
-        color: #FD9b4d;
+        color: #990011;
         text-align: center;
         justify-content: center;
         width: 60%;
@@ -161,7 +161,7 @@ figure img {
     .minombre {
         display: flex;
         font-size: 2.5rem;
-        color: #FD9b4d;
+        color: #990011;
         justify-content: center;
         width: 50%;
     }
