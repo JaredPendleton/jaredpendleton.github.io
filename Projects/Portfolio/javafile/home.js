@@ -115,7 +115,7 @@ let brownTanOrange = () => {
 };
 
 
-let greenGrey = () => {
+let greenGray = () => {
     htmlElement.style.cssText = "background-color:#3d4c41;transition:all 2s ease-in; ";  //bground prim color group 1
     greetingElement.style.cssText = "color:#3d4c41; transition:all 2s ease-in;";        //body text color group 1
     //Secondary color elements
