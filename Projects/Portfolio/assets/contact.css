@@ -1,5 +1,5 @@
 html {
-    background-color: #0F149A;
+    background-color: #337def;
 }
 /*Begin header*/
 /*Header descriptions in plans*/
@@ -7,7 +7,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    border-bottom: #FD9b4d 3px double;
+    border-bottom: #fcc729 3px double;
     width: 100%;
 } 
 .tbd {
@@ -21,14 +21,14 @@ html {
 
 .tbd li {
     list-style-type: none;
-    color: #FD9b4d;
     font-size: 1.3rem;
     font-weight: 500;
 }
 .tbd a {
     text-decoration: none;
-    color: #FD9b4d;
+    color: #fcc729;
 }
+
 .tbd a:hover {
     text-decoration: underline;
     color: whitesmoke;
@@ -37,6 +37,14 @@ html {
 }
 .minombre {
     display: none;
+}
+.tmi {
+    display: flex;
+    background-color: #fcc729;
+    width: 100%;
+}
+.info {
+    width: 60%
 }
 
 /*body start here*/
@@ -79,10 +87,18 @@ html {
     .minombre {
         display: flex;
         font-size: 1.5rem;
-        color: #FD9b4d;
+        color: #fcc729;
         text-align: center;
         justify-content: center;
         width: 60%;
+    }
+    #minombre {
+        color: #fcc729; 
+        text-decoration: none;
+    }
+    #minombre:hover {
+        color: whitesmoke;
+        text-decoration: underline;
     }
     .banner {
         justify-content: space-between;
@@ -107,9 +123,17 @@ html {
     .minombre {
         display: flex;
         font-size: 2.5rem;
-        color: #FD9b4d;
+        color: #fcc729;
         justify-content: center;
         width: 40%;
+    }
+    #minombre {
+        color: #fcc729; 
+        text-decoration: none;
+    }
+    #minombre:hover {
+        color: whitesmoke;
+        text-decoration: underline;
     }
     .banner {
         justify-content: space-between;
