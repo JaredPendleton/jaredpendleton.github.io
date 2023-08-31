@@ -162,7 +162,7 @@ let brownYellowGreen = () => {
     // third level colors, will use second 
     bannerZero.style.cssText = "border-bottom:#5a431b 3px double;transition: all 2s ease-in;";         // banner border bottom move to tiriary if needed 
     styleName.style.cssText = "color: #5a431b;transition: all 2s ease-in;";
-    styleName.innerHTML = "Genuine: Browm, Mustard Yellow, Green."; 
+    styleName.innerHTML = "Genuine: Brown, Mustard Yellow, Green."; 
     leadInZero.style.cssText = "color: #5a431b;transition: all 2s ease-in;";
 };
 
